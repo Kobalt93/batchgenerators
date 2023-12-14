@@ -614,7 +614,7 @@ class MisalignTransform(AbstractTransform):
         `angle_x`, `angle_y`, `angle_z`: rotation angels per axes, randomly sampled from interval.
         `p_rot_per_sample`: probability of the transformation per sample
         `p_rot_per_axis`: probability of the transformation per axes
-        `do_transl`: whether misalignment resulted from rotation is necessary
+        `do_transl`: whether misalignment resulted from translation is necessary
         `tr_x`, `tr_y`, `tr_z`: shift/translation per directions, randomly sampled from interval.
         `p_transl_per_sample`: probability of the transformation per sample
         `p_transl_per_dir`: probability of the transformation per direction
